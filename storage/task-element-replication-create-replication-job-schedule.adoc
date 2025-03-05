@@ -13,7 +13,7 @@ summary: Vous pouvez utiliser la commande cron create de planification de travau
 [role="lead"]
 Que vous répliquant des données d'Element vers ONTAP ou de ONTAP vers Element, vous devez configurer une planification de tâche, spécifier une règle et créer et initialiser la relation. Vous pouvez utiliser une stratégie par défaut ou personnalisée.
 
-Sur l'interface de ligne de commandes de ONTAP, vous pouvez créer une planification des tâches de réplication à l'aide de la `job schedule cron create` commande. La planification des tâches détermine lorsque SnapMirror met automatiquement à jour la relation de protection des données à laquelle la planification est attribuée.
+Vous pouvez utiliser `job schedule cron create` la commande pour créer une planification de tâche de réplication. La planification des tâches détermine lorsque SnapMirror met automatiquement à jour la relation de protection des données à laquelle la planification est attribuée.
 
 .Description de la tâche
 Vous affectez un planning de travail lorsque vous créez une relation de protection des données. Si vous n'attribuez pas de programme de travail, vous devez mettre à jour la relation manuellement.

@@ -1,10 +1,10 @@
 ---
 permalink: storage/element-replication-index.html 
 sidebar: sidebar 
-keywords: decide, replication, netapp element software, ontap, business continuity, element, system, snapmirror, replicate, snapshot, copies, volume 
+keywords: ontap, cli, replication, element, software, ontap, business continuity, snapmirror, replicate, snapshot, copies, volume 
 summary: 'Assurez la continuité de l"activité sur les systèmes Element en répliquant les copies Snapshot d"un volume Element vers une destination ONTAP à l"aide de SnapMirror.' 
 ---
-= Réplication entre le logiciel NetApp Element et ONTAP en vue d'ensemble
+= Réplication entre le logiciel NetApp Element et la présentation ONTAP (interface de ligne de commande ONTAP)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -18,7 +18,7 @@ Depuis la version ONTAP 9.4, vous pouvez répliquer les copies Snapshot d'une LU
 Vous devez travailler avec Element pour la sauvegarde ONTAP si les conditions suivantes s'appliquent :
 
 * Vous voulez appliquer les bonnes pratiques, pas explorer toutes les options disponibles.
-* Vous souhaitez utiliser l'interface de ligne de commandes ONTAP et non l'interface utilisateur d'Element, System Manager, stockage/concept-élément-réplication-create-custom-Replication-policy ou un outil de création de scripts automatisés.
+* Vous souhaitez utiliser l'interface de ligne de commandes ONTAP et non System Manager, ni un outil de création de scripts automatisé.
 * Vous utilisez le protocole iSCSI pour transmettre des données aux clients.
 
 
@@ -145,7 +145,7 @@ Vous devez avoir effectué les tâches suivantes avant de configurer une relatio
 +
 [NOTE]
 ====
-Vous pouvez effectuer cette tâche uniquement dans l'interface utilisateur Web du logiciel Element.
+Vous ne pouvez effectuer cette tâche que dans link:concept_snapmirror_labels.html["Interface utilisateur web du logiciel Element"]ou à l'aide de link:../api/concept_element_api_snapshots_overview.html["Méthodes API"].
 
 ====
 * Vous devez vous assurer que le port 5010 est disponible.

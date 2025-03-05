@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-make-destination-volume-writeable.html 
 sidebar: sidebar 
-keywords: make, destination, volume, write 
+keywords: ontap, cli, make, destination, volume, write 
 summary: Vous devez rendre le volume de destination inscriptible avant de pouvoir transmettre les données du volume à des clients. Vous pouvez utiliser la commande snapmirror quiesce pour arrêter les transferts planifiés vers la destination, la commande snapmirror abort pour arrêter les transferts en cours et la commande snapmirror break pour rendre la destination inscriptible. 
 ---
 = Rendre le volume de destination inscriptible

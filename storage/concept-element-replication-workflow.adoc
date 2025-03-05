@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept-element-replication-workflow.html 
 sidebar: sidebar 
-keywords: workflow, replication, element, ontap 
+keywords: workflow, replication, element, ontap, cli 
 summary: 'Que vous répliquant des données d"Element vers ONTAP ou de ONTAP vers Element, vous devez configurer une planification de tâche, spécifier une règle et créer et initialiser la relation. Vous pouvez utiliser une stratégie par défaut ou personnalisée.' 
 ---
 = Workflow de réplication entre Element et ONTAP

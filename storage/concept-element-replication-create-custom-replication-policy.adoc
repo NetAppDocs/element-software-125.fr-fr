@@ -2,7 +2,7 @@
 permalink: storage/concept-element-replication-create-custom-replication-policy.html 
 sidebar: sidebar 
 keywords: ontap, cli, create, custom, replication, policy, relationship, 
-summary: 'Si la règle par défaut d"une relation ne convient pas, vous pouvez créer une règle de réplication personnalisée à l"aide de l"interface de ligne de commandes de ONTAP.' 
+summary: 'Vous pouvez créer une stratégie de réplication personnalisée si la stratégie par défaut d"une relation n"est pas appropriée.' 
 ---
 = Création d'une règle de réplication personnalisée
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'Si la règle par défaut d"une relation ne convient pas, vous pouvez c
 
 
 [role="lead"]
-Lors de la création d'une relation de réplication à l'aide de l'interface de ligne de commandes de ONTAP, vous pouvez utiliser une règle par défaut ou personnalisée. Pour une règle de réplication unifiée personnalisée, vous devez définir une ou plusieurs _règles_ qui déterminent quelles copies Snapshot sont transférées lors de l'initialisation et de la mise à jour.
+Vous pouvez utiliser une règle par défaut ou personnalisée lorsque vous créez une relation de réplication. Pour une règle de réplication unifiée personnalisée, vous devez définir une ou plusieurs _règles_ qui déterminent quelles copies Snapshot sont transférées lors de l'initialisation et de la mise à jour.
 
 Vous pouvez créer une stratégie de réplication personnalisée si la stratégie par défaut d'une relation n'est pas appropriée. Vous pouvez par exemple compresser les données dans un transfert réseau ou modifier le nombre de tentatives effectuées par SnapMirror pour transférer des copies Snapshot.
 

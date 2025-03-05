@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-define-rule-policy.html 
 sidebar: sidebar 
-keywords: define, rule, policy 
+keywords: ontap, cli, define, rule, policy 
 summary: 'Pour les règles personnalisées avec le type de règle « mirror-vault », vous devez définir au moins une règle qui détermine les copies Snapshot qui sont transférées au cours de l"initialisation et de la mise à jour. Vous pouvez également définir des règles pour les stratégies par défaut avec le type de stratégie "mirror-vault".' 
 ---
 = Définir une règle pour une règle
